@@ -1,9 +1,6 @@
 import type { NextPage } from "next";
+import Layout from "../components/layout";
 
-const Home: NextPage = () => (
-  <div>
-    <h1>Quizzy App</h1>
-  </div>
-);
+const Home: NextPage = () => <Layout />;
 
 export default Home;
