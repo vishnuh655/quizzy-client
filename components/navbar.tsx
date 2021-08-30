@@ -36,8 +36,8 @@ const NavBarItems = (navbaritems: any) =>
   ));
 
 const NavBar = () => (
-  <div className="w-full p-2.5 bg-green-400">
-    <div className="container mx-auto">
+  <div className=" bg-green-400">
+    <div className="container mx-auto p-2.5">
       <div className="grid grid-cols-2 gap-4">
         <div className="col-start-1 col-end-3">
           <div className="flex flex-row">
