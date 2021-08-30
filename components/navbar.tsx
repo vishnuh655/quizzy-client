@@ -9,22 +9,22 @@ const NavItems = [
   {
     id: 2,
     name: "List",
-    link: "/quiz-list",
+    link: "/admin/quiz-list",
   },
   {
     id: 3,
     name: "Create",
-    link: "/",
+    link: "/admin/create-quiz",
   },
   {
     id: 4,
     name: "Update",
-    link: "/",
+    link: "/admin/update-quiz",
   },
   {
     id: 5,
     name: "Delete",
-    link: "/",
+    link: "/admin/delete-quiz",
   },
 ];
 

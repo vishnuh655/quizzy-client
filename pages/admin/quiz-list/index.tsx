@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import useSWR from "swr";
-import Layout from "../../components/layout";
-import QuizItem from "../../components/quiz-item/quizItem";
-import OptionItem from "../../components/quiz-item/optionItem";
+import Layout from "../../../components/layout";
+import QuizItem from "../../../components/quiz-item/quizItem";
+import OptionItem from "../../../components/quiz-item/optionItem";
 
 const fetcher = (url: any) =>
   fetch(url, {
