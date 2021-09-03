@@ -3,6 +3,7 @@ type InputProps = {
   id: string;
   label?: string;
   onChange?: any;
+  children?: any;
 };
 
 export const TextAreaInput = ({ id, label = "", onChange }: InputProps) => {
@@ -22,6 +23,7 @@ export const TextInput = ({
   id,
   label = "",
   onChange,
+  children,
 }: InputProps) => {
   const style = "p-2 border border-gray-300 focus:border-blue-500 rounded-md ";
 
@@ -30,6 +32,7 @@ export const TextInput = ({
       <label htmlFor={id}>{label}</label>
       <br />
       <input className={style} id={id} type={inputType} onChange={onChange} />
+      {children}
     </div>
   );
 };
